@@ -9,4 +9,4 @@ i.e if i am compiling a main.c into main with gcc
 ```
 ./build "gcc" "main.c -o main"
 ```
-all else you need to do to get started it include "includes.h" :)
+all else you need to do to get started it include "do_it.h" :)
