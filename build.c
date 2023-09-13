@@ -3,7 +3,7 @@
 #include <string.h>
 
 static const char *_com = \
-" include/render/_ren.c include/physics/_phys.c include/input/_input.c -lSDL2 -lm ";
+" include/render/_ren.c include/physics/_phys.c include/input/_input.c include/do_ppm/ppm_read.c -lSDL2 -lm ";
 
 int main(int argc, char *argv[]) {
 	//usage: ./_ <compiler> <flags>
